@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "index-com": "../components/indexcom/indexcom",
+    "content-com": "../components/contentcom/contentcom"
+  }
+}

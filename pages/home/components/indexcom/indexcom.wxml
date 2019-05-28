@@ -1,0 +1,9 @@
+<!--pages/home/components/indexcom/indexcom.wxml-->
+<view class='{{extraClasses}}'>
+  <view>我是indexcom组件</view>
+  <view style='height:600rpx;line-height:600rpx'>我是一个很高的盒子</view>
+  <view>
+    <image src='../../../../images/home.png'></image>
+  </view>
+  <view style='height:100rpx;line-height:100rpx'>还有内容要显示......</view>
+</view>

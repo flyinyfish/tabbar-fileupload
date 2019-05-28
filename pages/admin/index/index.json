@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "admin-index-com": "../components/admin-index-com/admin-index-com",
+    "admin-main-com": "../components/admin-main-com/admin-main-com"
+  }
+}

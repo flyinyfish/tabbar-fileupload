@@ -1,0 +1,9 @@
+<!--pages/admin/components/admin-index-com/admin-index-com.wxml-->
+<view class='{{extraClasses}}'>
+  <view style='height:600rpx;line-height:600rpx'>我是一个很高的盒子</view>
+  <view>
+    <image src='../../../../images/my.png'></image>
+  </view>
+  <view style='height:100rpx;line-height:100rpx'>还有内容要显示......</view>
+  <button bindtap="goHomeNav" class="btn">home导航</button>
+</view>

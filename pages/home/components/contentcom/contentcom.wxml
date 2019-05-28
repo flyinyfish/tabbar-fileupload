@@ -1,0 +1,6 @@
+<!--pages/home/components/contentcom/contentcom.wxml-->
+<view class='{{extraClasses}}'>
+  <view>我是contentcom组件</view>
+
+  <button class="btn" bindtap="goAdminNav">admin导航</button>
+</view>

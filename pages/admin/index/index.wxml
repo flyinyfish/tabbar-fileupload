@@ -1,0 +1,10 @@
+<!--pages/admin/index/index.wxml-->
+<view style='padding-bottom:115rpx'>
+  <admin-index-com wx:if="{{mainTemp == 0}}"></admin-index-com>
+  <admin-main-com wx:elif="{{mainTemp == 1}}"></admin-main-com>
+</view>
+
+
+
+<import src="../../newtabtemp/newtabtemp.wxml" />
+<template is="{{navTemp}}" data="{{tabBar}}" />

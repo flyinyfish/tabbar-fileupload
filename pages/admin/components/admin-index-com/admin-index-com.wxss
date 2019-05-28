@@ -1,0 +1,8 @@
+/* pages/admin/components/admin-index-com/admin-index-com.wxss */
+/* 组件加载动画 */
+.page-transition {
+  transition: all 0.3s;
+}
+.page-moved {
+  margin-left: 100%;
+}

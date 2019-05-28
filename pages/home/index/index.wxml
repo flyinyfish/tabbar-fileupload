@@ -1,0 +1,8 @@
+<!--pages/home/index/index.wxml-->
+<view style='padding-bottom:115rpx'>
+  <index-com wx:if="{{mainTemp == 0}}"></index-com>
+  <content-com wx:elif="{{mainTemp == 1}}"></content-com>
+</view>
+
+<import src="../../newtabtemp/newtabtemp.wxml" />
+<template is="{{navTemp}}" data="{{tabBar}}" />

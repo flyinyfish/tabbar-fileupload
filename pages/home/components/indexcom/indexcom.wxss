@@ -1,0 +1,8 @@
+/* pages/home/components/indexcom/indexcom.wxss */
+/* 组件加载动画 */
+.page-transition {
+  transition: all 0.3s;
+}
+.page-moved {
+  margin-left: 100%;
+}
